@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Digital Rush Play</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="digital games store, buy PC games online, PS5 game deals, Xbox digital keys, Nintendo Switch games Australia, instant game downloads, cheap game bundles"
+      name="keywords"
+    />
+    <meta
+      content="Digital Rush Play is Australia's go-to online store for digital PC, PlayStation, Xbox, and Nintendo games. Discover the latest releases, exclusive deals, and instant game downloads – no delays, just play."
+      name="description"
+    />
+
+    <!-- Favicon -->
+    <link href="img/cart-icon.png" rel="icon" />
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="p-0">
+      <!-- Spinner Start -->
+      <div
+        id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="spinner-border text-primary"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        >
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      <!-- Spinner End -->
+
+      <!-- Header Start -->
+      <div class="container-fluid bg-dark px-0 fixed-top">
+        <div class="row gx-0">
+          <div class="col-lg-5 bg-dark d-none d-lg-block">
+            <a
+              href="index.html"
+              class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center"
+            >
+              <div style="color: #fff; font-size: 26px; font-weight: 600">
+                Digital Rush Play
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-7">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
+              <a href="index.html" class="navbar-brand d-block d-lg-none">
+                <div style="color: #fff; font-size: 26px; font-weight: 600">
+                  Digital Rush Play
+                </div>
+              </a>
+              <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse justify-content-between"
+                id="navbarCollapse"
+              >
+                <div class="navbar-nav mr-auto py-0">
+                  <a href="catalog.html" class="nav-item nav-link">Shop</a>
+                  <a href="about.html" class="nav-item nav-link">About us</a>
+                  <a href="blog.html" class="nav-item nav-link">Blog</a>
+                  <a href="contacts.html" class="nav-item nav-link"
+                    >Contact Us</a
+                  >
+                  <!-- <a href="favorites.html" class="nav-item nav-link">Обрані</a> -->
+
+                  <a href="cart.html" class="nav-item nav-link">Cart</a>
+                  <div class="icons">
+                    <div class="icon-wrapper">
+                      <a href="favorites.html">
+                        <img
+                          src="./img/favor3.svg"
+                          alt="Обране"
+                          class="icon"
+                          style="width: 32px; height: 32px"
+                        />
+                        <span id="favorites-count" class="badge">0</span>
+                      </a>
+                    </div>
+                    <div class="icon-wrapper">
+                      <a href="cart.html">
+                        <img
+                          src="./img/cart2.svg"
+                          alt="Кошик"
+                          style="width: 32px; height: 32px"
+                          class="icon"
+                        />
+                        <span id="cart-count" class="badge">0</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- Header End -->
+      <!-- Блок 1: Головний екран (Hero Section) -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-7 hero-content">
+              <h1 class="hero-title">Fuel Your Gaming Rush</h1>
+              <h2 class="hero-subtitle">
+                Top Titles. Instant Access. Unbeatable Prices.
+              </h2>
+              <p class="hero-text">
+                Step into the world of high-speed digital entertainment with
+                Digital Rush Play. From blockbuster console hits to hidden indie
+                gems for PC – we've got something for every gamer. Discover your
+                next adventure, delivered instantly and ready to play.
+              </p>
+              <a href="catalog.html" class="btn btn-game">
+                Browse Game Catalog
+              </a>
+            </div>
+            <div class="col-lg-5 hero-image">
+              <img
+                src="./img/hero-games.webp"
+                alt="Digital Rush Play featured games"
+                class="img-fluid"
+                style="height: 600px; object-fit: cover; width: 100%"
+              />
+
+              <div class="floating-game-icon floating-icon-1">
+                <i
+                  class="fas fa-gamepad fa-lg"
+                  style="color: var(--primary)"
+                ></i>
+              </div>
+              <div class="floating-game-icon floating-icon-2">
+                <i
+                  class="fas fa-desktop fa-lg"
+                  style="color: var(--accent)"
+                ></i>
+              </div>
+              <div class="floating-game-icon floating-icon-3">
+                <i class="fas fa-headset fa-lg" style="color: var(--cta)"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Блок 2: What You'll Find in Our Store -->
+      <section class="section-padding store-features">
+        <div class="store-features-bg bg-top-right"></div>
+        <div class="store-features-bg bg-bottom-left"></div>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 order-lg-2">
+              <h2 class="section-title">What You'll Find in Our Store</h2>
+              <p class="text-content">
+                At Digital Rush Play, we bring together the ultimate mix of
+                games for every type of player. Whether you're a competitive
+                console warrior or a casual PC explorer, our collection has you
+                covered.
+              </p>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+              <div class="accent-box">
+                <ul class="feature-list">
+                  <li>
+                    New & Classic Titles for PC, Xbox, PlayStation & Nintendo
+                  </li>
+                  <li>Instant Digital Downloads – No Waiting, Just Playing</li>
+                  <li>Indie Hits, AAA Blockbusters & Fan Favorites</li>
+                  <li>Special Deals, Limited Bundles & Weekly Discounts</li>
+                  <li>Region-friendly activation for Australian gamers</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Блок 3: Top Picks by Platform -->
+      <section class="section-padding platform-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center mb-5">
+              <h2 class="section-title mx-auto">Top Picks by Platform</h2>
+              <p class="text-content">
+                Choose your system and jump straight into the most popular,
+                high-rated, and trending games—updated regularly to keep your
+                library fresh.
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="platform-tabs">
+                <div class="platform-tab active" data-platform="xbox">
+                  <div class="d-flex align-items-center">
+                    <div class="platform-icon">
+                      <i class="fab fa-xbox"></i>
+                    </div>
+                    <h3 class="platform-name">Xbox</h3>
+                  </div>
+                </div>
+
+                <div class="platform-tab" data-platform="playstation">
+                  <div class="d-flex align-items-center">
+                    <div class="platform-icon">
+                      <i class="fab fa-playstation"></i>
+                    </div>
+                    <h3 class="platform-name">PlayStation</h3>
+                  </div>
+                </div>
+
+                <div class="platform-tab" data-platform="pc">
+                  <div class="d-flex align-items-center">
+                    <div class="platform-icon">
+                      <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3 class="platform-name">PC</h3>
+                  </div>
+                </div>
+
+                <div class="platform-tab" data-platform="nintendo">
+                  <div class="d-flex align-items-center">
+                    <div class="platform-icon">
+                      <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3 class="platform-name">Nintendo</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-8">
+              <div class="platform-contents">
+                <div class="platform-content active" id="xbox-content">
+                  <div class="game-card">
+                    <h4>
+                      <i class="fab fa-xbox text-primary me-2"></i> Xbox
+                      Experience
+                    </h4>
+                    <p class="text-content mb-0">
+                      Dominate the battlefield or lose yourself in open-world
+                      adventures. Explore the best of Xbox, from shooters to
+                      simulators.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="platform-content" id="playstation-content">
+                  <div class="game-card">
+                    <h4>
+                      <i class="fab fa-playstation text-primary me-2"></i>
+                      PlayStation Experience
+                    </h4>
+                    <p class="text-content mb-0">
+                      Narrative masterpieces, cinematic exclusives, and
+                      fast-paced action – curated for the ultimate PlayStation
+                      experience.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="platform-content" id="pc-content">
+                  <div class="game-card">
+                    <h4>
+                      <i class="fas fa-desktop text-primary me-2"></i> PC
+                      Experience
+                    </h4>
+                    <p class="text-content mb-0">
+                      From strategy and survival to mod-rich RPGs, the PC
+                      section is a haven for gamers who want flexibility and
+                      power.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="platform-content" id="nintendo-content">
+                  <div class="game-card">
+                    <h4>
+                      <i class="fas fa-gamepad text-primary me-2"></i> Nintendo
+                      Experience
+                    </h4>
+                    <p class="text-content mb-0">
+                      Bright, bold, and bursting with creativity – discover
+                      beloved Nintendo franchises and indie delights for Switch.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Блок 4: About Digital Rush Play -->
+      <section class="section-padding about-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 about-content">
+              <h2 class="section-title">About Digital Rush Play</h2>
+              <p class="text-content">
+                Digital Rush Play is more than just a game store — it's your
+                gateway to endless adventures, epic battles, and unforgettable
+                experiences. Built by
+                <span class="highlight-text"
+                  >passionate gamers in Australia</span
+                >, our mission is to deliver fast, secure, and affordable access
+                to the titles you love.
+              </p>
+              <p class="text-content">
+                We believe gaming should be instant, exciting, and always within
+                reach. That's why we offer curated selections, lightning-fast
+                digital delivery, and unbeatable deals every day. Whether you're
+                chasing nostalgia or the latest release, we're here to fuel your
+                digital rush.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <div class="about-image">
+                <img
+                  src="./img/why-shop-with-us.webp"
+                  alt="Digital Rush Play team"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Блок 8: Game Catalog -->
+      <section class="section-padding catalog-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center mb-5">
+              <h2 class="section-title mx-auto">Game Catalog</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <!-- Game Card 1 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <a href="product.html?id=1" class="text-decoration-none">
+                <div class="game-catalog-card">
+                  <div class="sale-badge">SALE</div>
+                  <div class="game-platform">PS5</div>
+                  <div class="game-catalog-img">
+                    <img
+                      src="./img/game-1.webp"
+                      alt="Echoes Of Valor"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="game-catalog-content">
+                    <h3 class="game-title">Echoes Of Valor</h3>
+                    <div class="game-price">
+                      <span class="original-price">$56.67</span>
+                      <span class="discount-price">$52.98</span>
+                    </div>
+                    <p class="game-description">
+                      Lead your army to victory in an epic medieval battlefield
+                      full of honor, betrayal, and glory.
+                    </p>
+                    <div class="view-details">
+                      View Details <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <!-- Game Card 2 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <a href="product.html?id=2" class="text-decoration-none">
+                <div class="game-catalog-card">
+                  <div class="sale-badge">SALE</div>
+                  <div class="game-platform">Xbox</div>
+                  <div class="game-catalog-img">
+                    <img
+                      src="./img/game-2.webp"
+                      alt="Iron Horizon"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="game-catalog-content">
+                    <h3 class="game-title">Iron Horizon</h3>
+                    <div class="game-price">
+                      <span class="original-price">$72.56</span>
+                      <span class="discount-price">$58.16</span>
+                    </div>
+                    <p class="game-description">
+                      Command a fleet of warships across galaxies in this
+                      cinematic sci-fi strategy adventure.
+                    </p>
+                    <div class="view-details">
+                      View Details <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <!-- Game Card 3 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <a href="product.html?id=3" class="text-decoration-none">
+                <div class="game-catalog-card">
+                  <div class="sale-badge">SALE</div>
+                  <div class="game-platform">PC</div>
+                  <div class="game-catalog-img">
+                    <img
+                      src="./img/game-3.webp"
+                      alt="Skyfall Chronicles"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="game-catalog-content">
+                    <h3 class="game-title">Skyfall Chronicles</h3>
+                    <div class="game-price">
+                      <span class="original-price">$59.47</span>
+                      <span class="discount-price">$50.73</span>
+                    </div>
+                    <p class="game-description">
+                      Discover floating cities and lost civilizations in this
+                      breathtaking steampunk fantasy RPG.
+                    </p>
+                    <div class="view-details">
+                      View Details <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Блок 5: Why Shop with Us -->
+      <section class="section-padding shop-features">
+        <div class="container">
+          <div class="row align-items-end">
+            <div class="col-lg-6">
+              <h2 class="section-title">Why Shop with Us</h2>
+
+              <ul class="benefits-list">
+                <li>
+                  <div class="benefit-icon">⚡</div>
+                  <div class="benefit-text">
+                    <div class="benefit-title">Instant Digital Delivery</div>
+                    <div>Play within minutes of purchase</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="benefit-icon">🛒</div>
+                  <div class="benefit-text">
+                    <div class="benefit-title">Handpicked Deals & Bundles</div>
+                    <div>Save big on must-have titles</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="benefit-icon">🔐</div>
+                  <div class="benefit-text">
+                    <div class="benefit-title">Secure Payment Options</div>
+                    <div>Trusted transactions, every time</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="benefit-icon">🌍</div>
+                  <div class="benefit-text">
+                    <div class="benefit-title">Region-Friendly Keys</div>
+                    <div>Optimized for Australian gamers</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="benefit-icon">📞</div>
+                  <div class="benefit-text">
+                    <div class="benefit-title">Real Support by Real Gamers</div>
+                    <div>We speak your language</div>
+                  </div>
+                </li>
+              </ul>
+
+              <p class="text-content mt-4">
+                <strong
+                  >We don't just sell games — we fuel your next
+                  obsession.</strong
+                >
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <div class="benefits-image">
+                <img
+                  src="./img/upcoming-releases.webp"
+                  alt="Digital Rush Play benefits"
+                  class="img-fluid"
+                  style="max-height: 900px; object-fit: cover; width: 100%"
+                />
+                <div class="benefits-badge">100% Trusted</div>
+              </div>
+              <p class="text-content mt-4">
+                We get it – gamers want speed, security, and serious value.
+                That's why Digital Rush Play is built with you in mind.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Блок 6: What Our Customers Say -->
+      <section class="section-padding testimonials-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center mb-5">
+              <h2 class="section-title mx-auto">What Our Customers Say</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <div class="testimonial-card">
+                <div class="testimonial-quote">Fast, easy, and reliable.</div>
+                <p class="testimonial-content">
+                  Bought two games for my PS5 and had the keys delivered in
+                  seconds. Couldn't be happier!
+                </p>
+                <p class="testimonial-author">— Mark T., Melbourne</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="testimonial-card">
+                <div class="testimonial-quote">Awesome discounts!</div>
+                <p class="testimonial-content">
+                  Found a bundle with three of my favourite RPGs for less than
+                  half the price. Digital Rush is now my go-to.
+                </p>
+                <p class="testimonial-author">— Liam R., Sydney</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="testimonial-card">
+                <div class="testimonial-quote">Perfect for PC gamers.</div>
+                <p class="testimonial-content">
+                  Huge library, instant Steam keys, and smooth checkout. Exactly
+                  what I was looking for.
+                </p>
+                <p class="testimonial-author">— Chloe S., Brisbane</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="testimonial-card">
+                <div class="testimonial-quote">Support team is top-notch.</div>
+                <p class="testimonial-content">
+                  Had an issue with a region lock — they fixed it within 15
+                  minutes. Legit impressive.
+                </p>
+                <p class="testimonial-author">— Emily J., Perth</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="testimonial-card">
+                <div class="testimonial-quote">
+                  They always have what I want.
+                </div>
+                <p class="testimonial-content">
+                  Whether it's a hot new release or a retro gem, I always find
+                  it here.
+                </p>
+                <p class="testimonial-author">— Zac M., Gold Coast</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="testimonial-card">
+                <div class="testimonial-quote">Trustworthy and fast.</div>
+                <p class="testimonial-content">
+                  I've used other sites before, but Digital Rush Play actually
+                  delivers on their promises.
+                </p>
+                <p class="testimonial-author">— Sarah D., Adelaide</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Блок 7: New & Upcoming Releases -->
+      <section class="section-padding releases-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 releases-container">
+              <h2 class="section-title">New & Upcoming Releases</h2>
+              <p class="text-content">
+                Stay ahead of the curve with the latest games fresh off the
+                press — and a sneak peek at what's coming soon. Pre-load,
+                pre-order, and be first to play.
+              </p>
+
+              <div class="release-category">
+                <h3 class="category-title">Now Available:</h3>
+                <ul class="release-list">
+                  <li>
+                    <div class="release-title">"Warborn Eclipse"</div>
+                    <div class="release-description">
+                      Tactical strategy meets sci-fi warfare
+                    </div>
+                  </li>
+                  <li>
+                    <div class="release-title">"Deadlight Remastered"</div>
+                    <div class="release-description">
+                      A gritty survival horror classic, reimagined
+                    </div>
+                  </li>
+                  <li>
+                    <div class="release-title">"Kingdoms Rise: Rebellion"</div>
+                    <div class="release-description">
+                      Epic medieval RPG with co-op campaign
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="release-category">
+                <h3 class="category-title">Coming Soon:</h3>
+                <ul class="release-list">
+                  <li>
+                    <div class="release-title">"Neon Skies: Zero Gravity"</div>
+                    <div class="release-description">
+                      Open-world exploration in space
+                    </div>
+                  </li>
+                  <li>
+                    <div class="release-title">"Mythspire"</div>
+                    <div class="release-description">
+                      A dark fantasy action RPG launching this month
+                    </div>
+                  </li>
+                  <li>
+                    <div class="release-title">"Blade Circuit X"</div>
+                    <div class="release-description">
+                      Competitive cyberpunk fighting game
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <p class="text-content mt-4">
+                <strong
+                  >Pre-orders open now — be ready for day one access!</strong
+                >
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <div class="release-image">
+                <img
+                  src="./img/about-digital-rush.webp"
+                  alt="New and upcoming game releases"
+                  class="img-fluid"
+                />
+                <div class="preorder-badge">Pre-order Now</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Start -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row g-5">
+            <!-- Logo and About Column -->
+            <div class="col-md-6 col-lg-4">
+              <div class="footer-logo">
+                <a href="index.html">Digital Rush Play</a>
+              </div>
+              <p class="footer-text">
+                Your gateway to endless adventures, epic battles, and
+                unforgettable gaming experiences. Fast delivery, unbeatable
+                prices, and top titles for every player.
+              </p>
+            </div>
+
+            <!-- Contact Information Column -->
+            <div class="col-md-6 col-lg-4">
+              <div class="footer-contact">
+                <div class="footer-contact-item">
+                  <i class="fa fa-map-marker-alt"></i>
+                  <div>
+                    1050 Great Northern Hwy, Baskerville WA 6056, Australia
+                  </div>
+                </div>
+                <div class="footer-contact-item">
+                  <i class="fa fa-phone-alt"></i>
+                  <div>+61 8 9296 3537</div>
+                </div>
+                <div class="footer-contact-item">
+                  <i class="fa fa-envelope"></i>
+                  <div>digitalrushplay@gmail.com</div>
+                </div>
+              </div>
+
+              <!-- Legal Links -->
+              <div class="footer-links">
+                <a href="privacy-policy.html" class="footer-link"
+                  >Privacy Policy</a
+                >
+                <a href="terms-of-use.html" class="footer-link">Terms of Use</a>
+                <a href="cookies-policy.html" class="footer-link"
+                  >Cookie Policy</a
+                >
+              </div>
+            </div>
+
+            <!-- Navigation Links Column -->
+            <div class="col-lg-4 col-md-12 footer-links-column">
+              <h4 class="footer-links-title">Quick Links</h4>
+              <div class="footer-links">
+                <a href="catalog.html" class="footer-link">Shop</a>
+                <a href="about.html" class="footer-link">About Us</a>
+                <a href="blog.html" class="footer-link">Blog</a>
+                <a href="contacts.html" class="footer-link">Contact Us</a>
+                <a href="cart.html" class="footer-link">Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <p class="mb-0">
+              &copy; 2025 Digital Rush Play. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer End -->
+
+      <!-- Cookie banner -->
+      <div class="cookie-wrapper show">
+        <div>
+          <i class="bx bx-cookie"></i>
+          <h2 style="text-align: center">Cookie Consent</h2>
+        </div>
+        <div class="data">
+          <p>
+            This website uses cookies to provide you with a better and
+            higher-quality browsing experience. For more information, please see
+            our
+            <a href="cookies-policy.html">Cookie Policy</a>.
+          </p>
+        </div>
+
+        <div class="buttons">
+          <button class="cookie-button" id="acceptBtn">Accept</button>
+          <button class="cookie-button" id="declineBtn">Decline</button>
+        </div>
+      </div>
+
+      <!-- End Cookie banner -->
+
+      <!-- Back to Top -->
+      <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+        ><i class="bi bi-arrow-up"></i
+      ></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+
+    <script src="js/cookiebanner.js"></script>
+    <!-- JavaScript для роботи з платформними табами -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const platformTabs = document.querySelectorAll(".platform-tab");
+
+        platformTabs.forEach((tab) => {
+          tab.addEventListener("click", function () {
+            // Remove active class from all tabs
+            platformTabs.forEach((t) => t.classList.remove("active"));
+
+            // Add active class to clicked tab
+            this.classList.add("active");
+
+            // Hide all platform content
+            const platformContents =
+              document.querySelectorAll(".platform-content");
+            platformContents.forEach((content) =>
+              content.classList.remove("active")
+            );
+
+            // Show selected platform content
+            const platform = this.getAttribute("data-platform");
+            document
+              .getElementById(`${platform}-content`)
+              .classList.add("active");
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
